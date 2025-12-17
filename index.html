@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/GallumbosIcon.png"
+      type="image/png"
+    />
+    <title>Gallumbos Ciruelo</title>
+  </head>
+  <body>
+    <header>
+        <img src="./assets/images/GallumbosLogo.png" alt="Logo de la empresa" />
+        <h1>Gallumbos Ciruelo</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#Productos">Productos</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+          <li><a href="#SobreNosotros">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="destacado">
+        <p>
+          Nuestros <span>gallumbos</span> están hechos con pelo de alpaca baby, perfecta
+          incluso para <span>ciruelos</span> sensibles
+        </p>
+      </section>
+      <section class="productos">
+        <h2>Productos</h2>
+        <ul>
+          <li>
+            <img
+              src="./assets/images/slip.webp"
+              alt="Modelo posando con slip"
+            />
+            <h3>Slip Micro-mánager</h3>
+            <p>
+              Control absoluto de cada milímetro. Nada se mueve sin su permiso.
+            </p>
+            <p class="precio">22,99€  🛒</p>
+          </li>
+          <li>
+            <img
+              src="./assets/images/Trunk.webp"
+              alt="Modelo posando con trunk"
+            />
+            <h3>Trunk Resumen </h3>
+            <p>
+              Versión corta para gente práctica. Lo bueno, si breve, dos veces
+              bueno. O eso dicen.
+            </p>
+            <p class="precio">8,99€  🛒</p>
+          </li>
+          <li>
+            <img
+              src="./assets/images/boxer.webp"
+              alt="Modelo posando con bóxer"
+            />
+            <h3>Bóxer Activo</h3>
+            <p>Soporte estable para tu día a día. Una inversión segura con la que podrás destacar.</p>
+            <p class="precio">15,99€  🛒</p>
+          </li>
+          <li>
+            <img
+              src="./assets/images/B-holgado.webp"
+              alt="Modelo posando con bóxer holgado"
+            />
+            <h3>Boxer Jubilación Anticipada</h3>
+            <p>
+              Libertad de movimiento. Sin presiones, sin estrés, solo brisa.
+            </p>
+            <p class="precio">46,99€  🛒</p>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <h2>Sujeción de matrícula de honor</h2>
+        <p>
+          <strong>Gallumbos Ciruelo</strong> nace de la necesidad de acabar con
+          la recesión en la zona sur y ofrecer un soporte estructural digno de
+          los patrimonios más valiosos.
+        </p>
+
+        <p>
+          Diseñamos para el <strong>hombre moderno</strong> que entiende cuáles
+          son sus prioridades. No nos importa si eres CEO del IBEX35 o si tu
+          mayor gestión del día es elegir serie en Netflix, encontrarás libertad
+          y sentido del humor evitando apreturas innecesarias.
+        </p>
+
+        <p>
+          Nuestra marca cuenta con la última tecnología en
+          <strong>ingeniería de contención.</strong> Buscamos realzar y
+          proteger, y nos diferenciamos por llamar a las cosas por su nombre (o
+          casi).
+        </p>
+      </section>
+      <section class="contacto">
+        <h2>Contacto</h2>
+        <fieldset>
+          <legend>Datos de contacto</legend>
+          <form>
+            <label for="nombre"
+              >Nombre
+              <input
+                type="text"
+                placeholder="Escribe aquí tu nombre..."
+                required
+            /></label>
+            <label for="email"
+              >Email
+              <input type="email" placeholder="example@example.com" required
+            /></label>
+            <label for="tipoConsulta">Tipo de consulta</label>
+            <select name="tipoConsulta" id="tipoConsulta">
+              <option value="sinOpcion">Selecciona una opción</option>
+              <optgroup label="General">
+                <option value="comentario">Comentario/Sugerencia</option>
+                <option value="consulta">Consultas</option>
+              </optgroup>
+              <optgroup label="Solicitudes">
+                <option value="devolucion">Devoluciones</option>
+                <option value="pedido">Información pedido</option>
+              </optgroup>
+              <optgroup label="Asistencia">
+                <option value="tecnica">Asistencia técnica</option>
+                <option value="telefonica">Soporte telefónico</option>
+              </optgroup>
+            </select>
+            <label for="mensaje"
+              >Mensaje
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                placeholder="Puedes escribir aquí..."
+                rows="6"
+                cols="40"
+              ></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <footer>
+      <p>&COPY; 2025 Gallumbos Ciruelo, todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
