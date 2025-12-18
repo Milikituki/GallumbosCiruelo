@@ -20,10 +20,10 @@ body {
 }
 
 header img {
-  width: 22%;
+  width: 17%;
   height: auto;
   float: left;
-  margin-left: 1.5rem;
+  margin-left: 3rem;
 }
 
 header h1 {
@@ -34,6 +34,7 @@ header h1 {
   font-family: "Sekuya", system-ui;
   float: right;
   width: 70%;
+  padding-top: 3rem;
 }
 
 nav {
@@ -47,7 +48,7 @@ nav li {
 nav li a {
   display: block;
   text-decoration: none;
-  margin: 2rem;
+  margin: 0.5rem 0.5rem 2rem 3rem;
   color: var(--s-color);
   font-weight: 700;
   font-size: 1.3rem;
@@ -60,86 +61,232 @@ a:hover {
 }
 
 .destacado {
-    clear:both;
-    float: right;
-    border: 4px dotted var(--p-color);
-    border-radius: 8px;
-    background-color:#fef7f3;
-    padding: 1.3rem;
-    max-width: 25%;
-    margin: 2rem;
+  clear: both;
+  float: right;
+  border: 4px dotted var(--p-color);
+  border-radius: 8px;
+  background-color: #fef7f3;
+  padding: 1.3rem;
+  max-width: 20%;
+  margin: 2rem 5rem 2rem 2rem;
+  height: 15%;
 }
 
 .destacado span {
-    font-style: oblique;
-    font-weight: 500;
-    text-align: justify;
+  font-style: oblique;
+  font-weight: 500;
+  text-align: justify;
 }
 
 .productos {
-    float: left;
+  float: left;
+  width: 70%;
 }
 
 .productos h2 {
-    margin-left: 2rem;
-    margin-right: 7rem;
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    color: var(--accent-color);
-    border-bottom: 1px solid var(--accent-color);
+  margin-left: 3rem;
+  margin-right: 7rem;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
 }
 
-
 .productos li {
-    background-color: #fef7f3;
-    float: left;
-    width: 19rem;
-    height: auto;
-    margin: 2rem;
-    padding: 1.7rem 1.7rem 0.5rem 1.7rem;
-    border-radius: 10px;
-
+  background-color: #fef7f3;
+  float: left;
+  width: 19rem;
+  height: auto;
+  margin: 3rem;
+  padding: 1.7rem 1.7rem 0.5rem 1.7rem;
+  border-radius: 10px;
 }
 
 .productos li:hover {
-    box-shadow: 10px 10px 52px 13px #fe630237;
-    cursor: pointer;
+  box-shadow: 10px 10px 52px 13px #fe630237;
+  cursor: pointer;
 }
 
 .productos img {
-    width: 11rem;
-    height: 13rem;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: auto;
-    display: block;
-    
-    
+  width: 11rem;
+  height: 13rem;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
 }
 
 .productos p {
-    margin: 1.5rem;
-
+  margin: 1.5rem;
 }
 
 .productos h3 {
-    text-align: center;
-    margin-top: 1rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .precio {
-    text-align: end;
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--s-color);
-    transition: color 0.3s ease, transform 0.3s ease;
+  text-align: end;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--s-color);
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .precio:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    color: var(--p-color);
-    font-weight: 800;
+  transform: scale(1.1);
+  cursor: pointer;
+  color: var(--p-color);
+  font-weight: 800;
 }
 
+.about {
+  clear: both;
+}
 
+.about h2 {
+  margin: 2rem 7rem 2rem 3rem;
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.about p {
+  margin: 1rem 3rem 1rem 3rem;
+  line-height: 2;
+  padding-right: 3rem;
+}
+
+.contacto {
+  margin: 3rem;
+}
+
+.contacto h2 {
+  margin: 2rem 7rem 2rem 0rem;
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+}
+form {
+  margin: 2rem;
+}
+form label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--s-color);
+}
+form input {
+  display: block;
+  margin-bottom: 2rem;
+  margin-top: 1.1rem;
+  width: 50%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 2px solid var(--p-color);
+  outline: none;
+  transition: border 0.1s ease, box-shadow 0.3s ease;
+}
+form input:focus {
+  outline: none;
+  border: 3px solid var(--p-color);
+  box-shadow: 1px 1px 50px -15px #ff5500bf;
+}
+form select {
+  display: block;
+  margin-top: 1.1rem;
+  margin-bottom: 2rem;
+  width: 50%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 2px solid var(--p-color);
+  outline: none;
+}
+form textarea {
+  display: block;
+  margin-top: 1.1rem;
+  margin-bottom: 2rem;
+  width: 50%;
+  height: 7rem;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 2px solid var(--p-color);
+  outline: none;
+  transition: border 0.1s ease;
+}
+form textarea:focus {
+  border: 3.1px solid var(--p-color);
+}
+
+form input[placeholder],
+form textarea[placeholder] {
+  font-style: oblique;
+  font-size: 0.9rem;
+}
+form optgroup {
+  font-size: 1.1rem;
+}
+
+form option,
+form select {
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 24rem;
+  border-radius: 10px;
+  outline: none;
+  border: 3px solid #70e278a8;
+  background-color: #70e278a8;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 #ffffff66, 0 5px 10px #0000004d;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+form button:hover {
+  transform: scale(1.05);
+  background-color: #70e278;
+}
+
+footer {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+  background-color: var(--p-color);
+}
+
+.marca {
+  font-weight: 600;
+}
+.derechos {
+  font-style: oblique;
+}
+
+@media (min-width: 1170px) {
+  header img {
+    width: 9%;
+    margin-left: 2rem;
+  }
+
+  header h1 {
+    font-size: 2.6rem;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+    font-size: 2.5rem;
+    width: 75%;
+  }
+
+  .destacado {
+    margin: 4rem 0.5rem 0 0;
+  }
+
+  .productos {
+    width: 79%;
+  }
+
+  form button {
+    margin-left: 35rem;
+  }
+}
