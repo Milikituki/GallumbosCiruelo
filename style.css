@@ -290,3 +290,81 @@ footer {
     margin-left: 35rem;
   }
 }
+@media (max-width: 767px) {
+
+  header img {
+    width: 25%;
+    float: none;
+    display: block;
+    margin: 1.5rem auto 0.5rem auto;
+  }
+
+  header h1 {
+    float: none;
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 0rem;
+    margin: 0.5rem 0rem 1.5rem 0rem;
+    text-align: center;
+  }
+  nav li {
+    float: none;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+
+  nav li a {
+    margin: 0.5rem 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .destacado {
+    float: none;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+
+  .productos {
+    float: none;
+    width: 100%;
+  }
+  .productos h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .productos li {
+    float: none;
+    width: 85%;
+    margin: 2rem auto;
+  }
+
+  .about h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about p {
+    margin: 1.5rem;
+    padding-right: 0;
+    text-align: justify;
+  }
+
+  form input,
+  form textarea,
+  form select {
+    width: 100%;
+  }
+
+  form button {
+    margin: 2rem auto 0rem auto;
+    display: block;
+  }
+
+  footer {
+    padding: 2rem;
+    text-align: center;
+  }
+}
