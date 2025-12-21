@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aquí encontrarás los mejores gallumbos para tu ciruelo. Adéntrate en el maravilloso mundo de la moda íntima masculina y entenderás por qué la auténtica belleza está en el interior"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
@@ -26,12 +30,12 @@
       </nav>
     </header>
     <main>
-      <section class="destacado">
+      <aside class="destacado">
         <p>
           Nuestros <span>gallumbos</span> están hechos con pelo de alpaca baby,
           perfecta incluso para <span>ciruelos</span> sensibles
         </p>
-      </section>
+      </aside>
       <section class="productos">
         <h2>Productos</h2>
         <ul>
@@ -111,11 +115,19 @@
         <form>
           <label for="nombre"
             >Nombre
-            <input type="text" placeholder="Escribe aquí tu nombre..." required
+            <input
+              type="text"
+              id="nombre"
+              placeholder="Escribe aquí tu nombre..."
+              required
           /></label>
           <label for="email"
             >Email
-            <input type="email" placeholder="example@example.com" required
+            <input
+              type="email"
+              id="email"
+              placeholder="example@example.com"
+              required
           /></label>
           <label for="tipoConsulta">Tipo de consulta</label>
           <select name="tipoConsulta" id="tipoConsulta">
@@ -139,7 +151,6 @@
               name="mensaje"
               id="mensaje"
               placeholder="Puedes escribir aquí..."
-
             ></textarea>
           </label>
           <button type="submit">Enviar</button>
@@ -147,7 +158,10 @@
       </section>
     </main>
     <footer>
-      <p>&COPY; 2025 <span class="marca">Gallumbos Ciruelo</span>, <span class="derechos">todos los derechos reservados.</span></p>
+      <p>
+        &COPY; 2025 <span class="marca">Gallumbos Ciruelo</span>,
+        <span class="derechos">todos los derechos reservados.</span>
+      </p>
     </footer>
   </body>
 </html>
